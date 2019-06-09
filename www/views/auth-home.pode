@@ -1,0 +1,10 @@
+<html>
+    <head>
+        <title>Home</title>
+    </head>
+    <body>
+
+        Hello, you have view this page $($data.Views) times! The current date is: $($data.flash['current-date'])
+
+    </body>
+</html>

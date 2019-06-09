@@ -1,0 +1,18 @@
+<html>
+    <head>
+        <title>Pode Page</title>
+        <link rel="stylesheet" type="text/css" href="/api/PodeSite?static-file=/styles/simple.css.pode">
+        <script type="text/javascript" src="/api/PodeSite?static-file=/scripts/simple.js.pode"></script>
+    </head>
+    <body>
+        Hello, world! This is Pode page running in an Azure Function, whatever next!!
+        <ul>
+        $(foreach ($i in $data.numbers)
+        {
+            "<li>value: $i</li>";
+        })
+        </ul>
+
+        <img src="/api/PodeSite?static-file=/Anger.jpg" />
+    </body>
+</html>
