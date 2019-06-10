@@ -13,6 +13,6 @@
         })
         </ul>
 
-        <img src="/api/PodeSite?static-file=/Anger.jpg" />
+        <img src="/api/PodeSite?static-file=/mudkip.png" />
     </body>
 </html>
